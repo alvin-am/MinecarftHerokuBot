@@ -28,12 +28,12 @@ setInterval(() => {
 // })
 
 const bot = mineflayer.createBot({
-    host: '############', //server name/ip
-    port: 00000, //server port
-    username: `Bot`,// name the bot
+    host: 'aaron2smp.aternos.me', //server name/ip
+    port: 28805, //server port
+    username: `alvin-BOT`,// name the bot
     // password: ``,
     version: false, // false corresponds to auto version detection (that's the default), put for example "1.8.8" if you need a specific version
-    auth: 'mojang' // optional; by default uses mojang, if using a microsoft account, set to 'microsoft'
+    // auth: 'mojang' // optional; by default uses mojang, if using a microsoft account, set to 'microsoft'
 });
 
 bot.loadPlugin(pathfinder)
