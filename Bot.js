@@ -28,7 +28,7 @@ setInterval(() => {
 // })
 
 const bot = mineflayer.createBot({
-    host: 'rudd.aternos.host', //server name/ip
+    host: 'thebigboyz.aternos.me', //server name/ip
     port: 28805, //server port
     username: `alvin-BOT`,// name the bot
     // password: ``,
